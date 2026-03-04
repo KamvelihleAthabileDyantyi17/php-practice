@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add a Car</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        form { max-width: 300px; display: flex; flex-direction: column; gap: 10px; }
+        input[type="submit"] { background: #3498db; color: white; border: none; padding: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <h2>Add a New Car Brand</h2>
+
+    <form method="post" action="process.php">
+        <label>Car Type (e.g., Sedan, SUV):</label>
+        <input type="text" name="type" required>
+
+        <label>Rim Size (e.g., 18 inch):</label>
+        <input type="text" name="rim" required>
+
+        <label>Horse Power:</label>
+        <input type="number" name="horsepower" required>
+
+        <label>Top Speed (km/h):</label>
+        <input type="number" name="topspeed" required>
+
+        <input type="submit" value="Save Car">
+    </form>
+
+</body>
+</html>
