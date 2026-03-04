@@ -40,29 +40,22 @@
     }
     ?>
 
-    <form method="POST" action="">
-        
-        <div class="form-group">
+    <form method="POST" action="process.php">
             <label for="first_name">First Name:</label>
             <input type="text" id="first_name" name="first_name" required>
-        </div>
+      
 
-        <div class="form-group">
             <label for="surname">Surname:</label>
             <input type="text" id="surname" name="surname" required>
-        </div>
-
-        <div class="form-group">
+       
+      
             <label for="email">Email Address:</label>
             <input type="email" id="email" name="email" required>
-        </div>
 
-        <div class="form-group">
-            <label for="cellphone">Cellphone Number:</label>
-            <input type="tel" id="cellphone" name="cellphone" required>
-        </div>
+            <label for="message">Message:</label>
+            <input type="tel" id="message" name="message" required>
 
-        <button type="submit">Submit Details</button>
+        <input type="submit" value="Submit Details">
 
     </form>
 
